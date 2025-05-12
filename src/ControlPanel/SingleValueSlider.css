@@ -1,0 +1,20 @@
+.input-window {
+  width: 10% !important;
+}
+.slider {
+  width: 70% !important;
+  margin-left: -15px;
+}
+
+.slider-and-annotation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-and-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
