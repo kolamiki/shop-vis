@@ -1,15 +1,16 @@
 {
   "name": "shop-vis-3d",
-  "homepage":"https://kolamiki.github.io/shop-vis/",
+  "homepage": "https://kolamiki.github.io/shop-vis/",
   "version": "0.0.0",
   "type": "module",
+  "public": false,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d dist" 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@kitware/vtk.js": "^33.0.2",

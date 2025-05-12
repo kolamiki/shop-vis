@@ -18,7 +18,7 @@ import Tap from "./Sink/Tap";
 // const tri = new THREE.CylinderGeometry(1, 1, 2, 3);
 
 function Visualization3D({ isCustomShown }) {
-  const customModel = useLoader(GLTFLoader, "/customModels/magic.glb");
+  const customModel = useLoader(GLTFLoader, "/shop-vis/customModels/magic.glb");
   const { cubeState } = useCubeData();
   const scale = 10;
   const { cubeHeight, cubeThickness } = cubeState[0];
